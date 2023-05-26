@@ -14,7 +14,7 @@ let FinalJogo = false;
 
 // Clique botão 1
 function clickBtn1() {
-    jogadas = jogadas++;
+    jogadas++;
 
     let btn = document.getElementById('btn1');
 
@@ -35,7 +35,7 @@ function clickBtn1() {
 
 // Clique botão 2
 function clickBtn2() {
-    jogadas = jogadas++;
+     jogadas++;
 
     let btn = document.getElementById('btn2');
 
@@ -58,7 +58,7 @@ function clickBtn2() {
 
 // Clique botão 3
 function clickBtn3() {
-    jogadas = jogadas++;
+     jogadas++;
 
     let btn = document.getElementById('btn3');
 
@@ -80,7 +80,7 @@ function clickBtn3() {
 
 // Clique botão 4
 function clickBtn4() {
-    jogadas = jogadas++;
+     jogadas++;
 
     let btn = document.getElementById('btn4');
 
@@ -102,7 +102,7 @@ function clickBtn4() {
 
 // Clique botão 5
 function clickBtn5() {
-    jogadas = jogadas++;
+    jogadas++;
 
     let btn = document.getElementById('btn5');
 
@@ -124,7 +124,8 @@ function clickBtn5() {
 
 // Clique botão 6
 function clickBtn6() {
-    jogadas = jogadas++;
+    
+     jogadas++;
 
     let btn = document.getElementById('btn6');
 
@@ -146,7 +147,7 @@ function clickBtn6() {
 
 // Clique botão 7
 function clickBtn7() {
-    jogadas = jogadas++;
+    jogadas++;
 
     let btn = document.getElementById('btn7');
 
@@ -165,9 +166,9 @@ function clickBtn7() {
 }
 }
 // Clique botão 8
-jogadas = jogadas++;
+ function clickBtn8() {
+    jogadas++;
 
-function clickBtn8() {
     let btn = document.getElementById('btn8');
 
     if (btn.value == " " && !FinalJogo) {
@@ -187,9 +188,9 @@ function clickBtn8() {
 }
 
 // Clique botão 9
-jogadas = jogadas++;
-
 function clickBtn9() {
+    jogadas++;
+    
     let btn = document.getElementById('btn9');
 
     if (btn.value == " " && !FinalJogo) {
@@ -353,4 +354,14 @@ function VerificaGanhador() {
         // alert( 'O jogador O ganhou!');
         return;
     }
+
+    //Verificar se aconteceu empate
+    if(jogadas==9){
+        FinalJogo = true;
+        LblJogador.innerText = 'Empate';
+        LblJogadas.innerText = '';
+        return
+    }
+    LblJogadas.innerText = '(' + (jogadas+1) + 'ª Jogada)'
 }
+
