@@ -1,13 +1,17 @@
 main {
      text-align: center;
 }
-
 .tabuleiro div input {
     width: 100px;
     height: 100px;
-    margin: 5px;
+    margin: 9px;
     border: 1px solid rgb(255, 0, 132);
     border-radius: 6px;
     font-size: 30px;
     cursor: pointer;
 }
+
+body {
+    background-image: url(/CSS/img/fundo.jpg);
+}
+
