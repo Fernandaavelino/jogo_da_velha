@@ -14,6 +14,8 @@ let FinalJogo = false;
 
 // Clique botão 1
 function clickBtn1() {
+    jogadas = jogadas++;
+
     let btn = document.getElementById('btn1');
 
     if (btn.value == " " && !FinalJogo) {
@@ -33,6 +35,8 @@ function clickBtn1() {
 
 // Clique botão 2
 function clickBtn2() {
+    jogadas = jogadas++;
+
     let btn = document.getElementById('btn2');
 
     if (btn.value == " " && !FinalJogo) {
@@ -54,6 +58,8 @@ function clickBtn2() {
 
 // Clique botão 3
 function clickBtn3() {
+    jogadas = jogadas++;
+
     let btn = document.getElementById('btn3');
 
     if (btn.value == " " && !FinalJogo) {
@@ -74,6 +80,8 @@ function clickBtn3() {
 
 // Clique botão 4
 function clickBtn4() {
+    jogadas = jogadas++;
+
     let btn = document.getElementById('btn4');
 
     if (btn.value == " " && !FinalJogo) {
@@ -94,6 +102,8 @@ function clickBtn4() {
 
 // Clique botão 5
 function clickBtn5() {
+    jogadas = jogadas++;
+
     let btn = document.getElementById('btn5');
 
     if (btn.value == " " && !FinalJogo) {
@@ -114,6 +124,8 @@ function clickBtn5() {
 
 // Clique botão 6
 function clickBtn6() {
+    jogadas = jogadas++;
+
     let btn = document.getElementById('btn6');
 
     if (btn.value == " " && !FinalJogo) {
@@ -134,6 +146,8 @@ function clickBtn6() {
 
 // Clique botão 7
 function clickBtn7() {
+    jogadas = jogadas++;
+
     let btn = document.getElementById('btn7');
 
     if (btn.value == " " && !FinalJogo) {
@@ -145,14 +159,14 @@ function clickBtn7() {
             controle = 0;
             btn.value = "O";
             btn7 = "O";
-           
-            
-        
+              
     }
     VerificaGanhador();
 }
-
+}
 // Clique botão 8
+jogadas = jogadas++;
+
 function clickBtn8() {
     let btn = document.getElementById('btn8');
 
@@ -173,6 +187,8 @@ function clickBtn8() {
 }
 
 // Clique botão 9
+jogadas = jogadas++;
+
 function clickBtn9() {
     let btn = document.getElementById('btn9');
 
