@@ -164,7 +164,7 @@ function clickBtn9() {
         if (controle == 0) {
             controle = 1;
             btn.value = "X"
-            btn3 = "X";
+            btn9 = "X";
         } else {
             controle = 0;
             btn.value = "O";
@@ -238,6 +238,7 @@ function VerificaGanhador() {
     }
 
     // Agora o O
+
     if (btn1 == 'O' && btn2 == 'O' && btn3 == 'O') {
         FinalJogo = true;
         LblJogador.innerText = 'O Jogador O ganhou';
