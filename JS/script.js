@@ -216,7 +216,7 @@ function VerificaGanhador() {
     //Verifica se Jogador X Ganhou
     if (btn1 == 'X' && btn2 == 'X' && btn3 == 'X') {
         FinalJogo = true;
-        LblJogador.innerText = 'O Jogador X ganhou';
+        LblJogador.innerText = 'O Jogador X ganhou !';
         LblJogadas.innerText = '';
         // alert( 'O jogador X ganhou!');
         return;
@@ -225,7 +225,7 @@ function VerificaGanhador() {
 
     if (btn4 == 'X' && btn5 == 'X' && btn6 == 'X') {
         FinalJogo = true;
-        LblJogador.innerText = 'O Jogador X ganhou';
+        LblJogador.innerText = 'O Jogador X ganhou !';
         LblJogadas.innerText = '';
         // alert( 'O jogador X ganhou!');
         return;
@@ -233,7 +233,7 @@ function VerificaGanhador() {
 
     if (btn7 == 'X' && btn8 == 'X' && btn9 == 'X') {
         FinalJogo = true;
-        LblJogador.innerText = 'O Jogador X ganhou';
+        LblJogador.innerText = 'O Jogador X ganhou!';
         LblJogadas.innerText = '';
         // alert( 'O jogador X ganhou!');
         return;
@@ -242,7 +242,7 @@ function VerificaGanhador() {
 
     if (btn1 == 'X' && btn4 == 'X' && btn7 == 'X') {
         FinalJogo = true;
-        LblJogador.innerText = 'O Jogador X ganhou';
+        LblJogador.innerText = 'O Jogador X ganhou !';
         LblJogadas.innerText = '';
         // alert( 'O jogador X ganhou!');
         return;
@@ -250,7 +250,7 @@ function VerificaGanhador() {
 
     if (btn2 == 'X' && btn5 == 'X' && btn8 == 'X') {
         FinalJogo = true;
-        LblJogador.innerText = 'O Jogador X ganhou';
+        LblJogador.innerText = 'O Jogador X ganhou !';
         LblJogadas.innerText = '';
         // alert( 'O jogador X ganhou!');
         return;
@@ -259,7 +259,7 @@ function VerificaGanhador() {
 
     if (btn3 == 'X' && btn6 == 'X' && btn9 == 'X') {
         FinalJogo = true;
-        LblJogador.innerText = 'O Jogador X ganhou';
+        LblJogador.innerText = 'O Jogador X ganhou !';
         LblJogadas.innerText = '';
         // alert( 'O jogador X ganhou!');
         return;
@@ -268,7 +268,7 @@ function VerificaGanhador() {
 
     if (btn1 == 'X' && btn5 == 'X' && btn9 == 'X') {
         FinalJogo = true;
-        LblJogador.innerText = 'O Jogador X ganhou';
+        LblJogador.innerText = 'O Jogador X ganhou !';
         LblJogadas.innerText = '';
         // alert( 'O jogador X ganhou!');
         return;
@@ -277,7 +277,7 @@ function VerificaGanhador() {
 
     if (btn3 == 'X' && btn5 == 'X' && btn7 == 'X') {
         FinalJogo = true;
-        LblJogador.innerText = 'O Jogador X ganhou';
+        LblJogador.innerText = 'O Jogador X ganhou !';
         LblJogadas.innerText = '';
         // alert( 'O jogador X ganhou!');
         return;
@@ -288,7 +288,7 @@ function VerificaGanhador() {
 
     if (btn1 == 'O' && btn2 == 'O' && btn3 == 'O') {
         FinalJogo = true;
-        LblJogador.innerText = 'O Jogador O ganhou';
+        LblJogador.innerText = 'O Jogador O ganhou !';
         LblJogadas.innerText = '';
         // alert( 'O jogador O ganhou!');
         return;
@@ -297,7 +297,7 @@ function VerificaGanhador() {
 
     if (btn4 == 'O' && btn5 == 'O' && btn6 == 'O') {
         FinalJogo = true;
-        LblJogador.innerText = 'O Jogador O ganhou';
+        LblJogador.innerText = 'O Jogador O ganhou !';
         LblJogadas.innerText = '';
         // alert( 'O jogador O ganhou!');
         return;
@@ -315,7 +315,7 @@ function VerificaGanhador() {
 
     if (btn1 == 'O' && btn4 == 'O' && btn7 == 'O') {
         FinalJogo = true;
-        LblJogador.innerText = 'O Jogador O ganhou';
+        LblJogador.innerText = 'O Jogador O ganhou !';
         LblJogadas.innerText = '';
         // alert( 'O jogador O ganhou!');
         return;
@@ -324,7 +324,7 @@ function VerificaGanhador() {
 
     if (btn2 == 'O' && btn5 == 'O' && btn8 == 'O') {
         FinalJogo = true;
-        LblJogador.innerText = 'O Jogador O ganhou';
+        LblJogador.innerText = 'O Jogador O ganhou !';
         LblJogadas.innerText = '';
         // alert( 'O jogador O ganhou!');
         return;
@@ -333,7 +333,7 @@ function VerificaGanhador() {
 
     if (btn3 == 'O' && btn6 == 'O' && btn9 == 'O') {
         FinalJogo = true;
-        LblJogador.innerText = 'O Jogador O ganhou';
+        LblJogador.innerText = 'O Jogador O ganhou !';
         LblJogadas.innerText = '';
         // alert( 'O jogador O ganhou!');
         return;
@@ -341,7 +341,7 @@ function VerificaGanhador() {
 
     if (btn1 == 'O' && btn5 == 'O' && btn9 == 'O') {
         FinalJogo = true;
-        LblJogador.innerText = 'O Jogador O ganhou';
+        LblJogador.innerText = 'O Jogador O ganhou !';
         LblJogadas.innerText = '';
         // alert( 'O jogador O ganhou!');
         return;
@@ -349,7 +349,7 @@ function VerificaGanhador() {
 
     if (btn3 == 'O' && btn5 == 'O' && btn7 == 'O') {
         FinalJogo = true;
-        LblJogador.innerText = 'O Jogador O ganhou';
+        LblJogador.innerText = 'O Jogador O ganhou !';
         LblJogadas.innerText = '';
         // alert( 'O jogador O ganhou!');
         return;
@@ -358,10 +358,52 @@ function VerificaGanhador() {
     //Verificar se aconteceu empate
     if(jogadas==9){
         FinalJogo = true;
-        LblJogador.innerText = 'Empate';
+        LblJogador.innerText = 'Empate !';
         LblJogadas.innerText = '';
         return
+    }
+
+    if (controle==0){
+        LblJogador.innerText = 'Jogador X';
+    } else {
+        LblJogador.innerText = 'Jogador O';
     }
     LblJogadas.innerText = '(' + (jogadas+1) + 'ª Jogada)'
 }
 
+
+//crick do botão Reiniciar
+function clickReiniciar() {
+    btn1 = 0;
+    btn2 = 0;
+    btn3 = 0;
+    btn4 = 0;
+    btn5 = 0;
+    btn6 = 0;
+    btn7 = 0;
+    btn8 = 0;
+    btn9 = 0;
+    controle = 0;
+    jogadas = 0;
+    FinalJogo = false;
+
+    let b1 = document.getElementById('btn1');
+    let b2 = document.getElementById('btn2');
+    let b3 = document.getElementById('btn3');
+    let b4 = document.getElementById('btn4');
+    let b5 = document.getElementById('btn5');
+    let b6 = document.getElementById('btn6');
+    let b7 = document.getElementById('btn7');
+    let b8 = document.getElementById('btn8');
+    let b9 = document.getElementById('btn9');
+
+    b1.value = ' ';
+    b2.value = ' ';
+    b3.value = ' ';
+    b4.value = ' ';
+    b5.value = ' ';
+    b6.value = ' ';
+    b7.value = ' ';
+    b8.value = ' ';
+    b9.value = ' ';
+}
